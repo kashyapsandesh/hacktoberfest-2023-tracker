@@ -11,8 +11,8 @@ const GitHubRepositoryInfo = () => {
   useEffect(() => {
     const fetchRepositoryInfo = async () => {
       try {
-        const owner = "HariomGupta123"; // Replace with the desired repository owner
-        const repo = "hactoberfest2023"; // Replace with the desired repository name
+        const owner = "Des-Vu-Technologies"; // Replace with the desired repository owner
+        const repo = "TodoApp"; // Replace with the desired repository name
         const token = "YOUR_GITHUB_PERSONAL_ACCESS_TOKEN"; // Replace with your GitHub Personal Access Token
 
         const repositoryResponse = await axios.get(
@@ -92,7 +92,7 @@ const GitHubRepositoryInfo = () => {
 
   return (
     <div>
-      <h1>GitHub Repository Information</h1>
+      <h1>Des vu Technologies HacktoBerfest Leaderboard</h1>
 
       {repositoryInfo && (
         <div>
