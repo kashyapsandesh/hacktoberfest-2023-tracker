@@ -108,10 +108,11 @@ const GitHubRepositoryInfo = () => {
           <div
             key={contributor}
             style={{
+              color: "white",
               padding: "10px",
               margin: "10px",
               borderRadius: "5px",
-              backgroundColor: "#f0f0f0",
+              backgroundColor: "#008000",
               display: "flex",
               alignItems: "center",
             }}
